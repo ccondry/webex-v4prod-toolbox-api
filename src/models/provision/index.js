@@ -23,7 +23,7 @@ async function setChatDefaults (userId) {
     CiscoAppId: "cisco-chat-bubble-app",
     DC: "produs1.ciscoccservice.com",
     async: true,
-    orgId: "ed2f91e1-ce22-4313-85cb-9acd7b5ce489"
+    orgId: "f889c62e-d43a-45bf-a74d-cca4e91e493e"
   }
   const demo = 'webex-v4prod'
   const query = {
