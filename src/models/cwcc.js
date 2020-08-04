@@ -2,6 +2,7 @@ const Client = require('cwcc-provision-client')
 const client = new Client({
   fromAddress: process.env.FROM_ADDRESS,
   apiKey: process.env.API_KEY,
-  tenantId: process.env.TENANT_ID
+  tenantId: process.env.TENANT_ID,
+  baseUrl: process.env.BASE_URL
 })
 module.exports = client
